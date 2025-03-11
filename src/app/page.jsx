@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import styles from "./page.module.css";
 import Sidebar from "@/components/sidebar";
+import DashboardContent from "@/components/dashboardContent";
 
 
 export default function Home() {
@@ -9,7 +10,8 @@ export default function Home() {
       <Header />
       <main className={styles.dashboardContainer}>
       <Sidebar />
-      </main> 
+      <DashboardContent />
+      </main>    
     </div>
   );
 }
